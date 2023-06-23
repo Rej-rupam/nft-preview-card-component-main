@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+}
+
+.page {
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  height: 550px;
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  padding: 15px;
+}
+.image {
+  height: 55%;
+  border-radius: 20px;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.text {
+  color: hsl(0, 0%, 100%);
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.text p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: hsl(215, 51%, 70%);
+  font-family: "Montserrat", sans-serif;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.first {
+  display: flex;
+  align-items: center;
+}
+.first p {
+  margin-left: 10px;
+  color: hsl(178, 100%, 50%);
+  font-family: "Montserrat", sans-serif;
+}
+.second {
+  display: flex;
+  align-items: center;
+}
+.second p {
+  margin-left: 10px;
+  color: hsl(215, 51%, 70%);
+  font-family: "Montserrat", sans-serif;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.image2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin: 10px;
+}
+.image2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.footer h4 {
+  color: hsl(215, 51%, 70%);
+  font-family: "Montserrat", sans-serif;
+}
+.footer span {
+  color: antiquewhite;
+  font-family: "Montserrat", sans-serif;
+}
